@@ -13,13 +13,13 @@ def convert(x):
 	listt[:0] = x.upper()
 	return listt
 
-	"""
-	This is the main function of the program, it takes a string, it replaces the spaces between the text,  then 
-	convers it into a list. Then it uses an algorithm to convert each of letters in the string, using a table of 
-	all the letters to derive the number of the letter. Then, it uses x the key, as the cipher, then it uses the 
-	index, and it adds the key, to the index, after that it shifts the numbers back into text, and it becomes 
-	ciphered using the key.
-	"""
+"""
+This is the main function of the program, it takes a string, it replaces the spaces between the text,  then 
+convers it into a list. Then it uses an algorithm to convert each of letters in the string, using a table of 
+all the letters to derive the number of the letter. Then, it uses x the key, as the cipher, then it uses the 
+index, and it adds the key, to the index, after that it shifts the numbers back into text, and it becomes 
+ciphered using the key.
+"""
 def caesercipher(x,z):
 	base = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 	v = x.replace(' ','')
