@@ -1,6 +1,6 @@
 """
 Ceasercipher, by Booked or 7OID,
-Just a funny test, you can use these functions to create a vigenere ciphere.
+Just a funny test, you can use these functions to do whatever you please :D
 """
 
 
